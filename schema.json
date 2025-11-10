@@ -1,0 +1,35 @@
+{
+    "numerical_features": [
+        "JoiningYear",
+        "PaymentTier",
+        "Age",
+        "ExperienceInCurrentDomain"
+    ],
+    "categorical_features": [
+        "Education",
+        "City",
+        "Gender",
+        "EverBenched"
+    ],
+    "target_column": "LeaveOrNot",
+    "categorical_levels": {
+        "Education": [
+            "Bachelors",
+            "Masters",
+            "PHD"
+        ],
+        "City": [
+            "Bangalore",
+            "Pune",
+            "New Delhi"
+        ],
+        "Gender": [
+            "Male",
+            "Female"
+        ],
+        "EverBenched": [
+            "No",
+            "Yes"
+        ]
+    }
+}
