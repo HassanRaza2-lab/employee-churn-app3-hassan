@@ -2,4 +2,3 @@ streamlit
 joblib
 pandas
 scikit-learn
-```eof
